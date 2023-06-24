@@ -17,7 +17,6 @@ function computeAreaofTriangle(){
     const mulOfsides= baseHeightMul(Number(inputs[0].value), Number(inputs[1].value));
 console.log(mulOfsides)
 const triangleArea= mulOfsides/2;
-console.log(triangleArea)
 outputEl.innerText= "Area of a Triangle is "+ triangleArea+"sq.cm" 
 
 }
